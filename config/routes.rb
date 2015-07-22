@@ -1,4 +1,30 @@
 Rails.application.routes.draw do
+  get 'static_pages/home'
+
+  get 'static_pages/blank'
+
+  get 'static_pages/buttons'
+
+  get 'static_pages/flot'
+
+  get 'static_pages/forms'
+
+  get 'static_pages/grid'
+
+  get 'static_pages/icons'
+
+  get 'static_pages/login'
+
+  get 'static_pages/morris'
+
+  get 'static_pages/notifications'
+
+  get 'static_pages/panelswells'
+
+  get 'static_pages/tables'
+
+  get 'static_pages/typography'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

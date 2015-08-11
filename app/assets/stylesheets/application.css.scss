@@ -14,7 +14,12 @@
  *= require_self
  */
 // "bootstrap-sprockets" must be imported before "bootstrap" and "bootstrap/variables"
-@import "bootstrap-sprockets";
-@import "bootstrap";
+@import "bootstrap-sass";
+@import "bootstrap-social";
+@import "datatables";
+@import "datatables-responsive";
 @import "font-awesome";
+@import "metisMenu";
+@import "morrisjs";
+@import "sb-admin-2";
 
